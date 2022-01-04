@@ -1,38 +1,59 @@
-import profilePhoto from '../../assets/profile.jpg';
+import runBuddyImg from '../../assets/run-buddy.jpg';
+import CodeQuizImg from '../../assets/code-quiz.gif';
+import weatherDashboardImg from '../../assets/WeatherDashboard.png';
+import YaFoodleImg from '../../assets/YaFoodle.png';
+import FomoExchangeImg from '../../assets/FomoExchange.png';
+import BudgetImg from '../../assets/BudgetTracker.png';
 import Project from '../../components/Project'
 
 function Portfolio() {
   const projects = [
     {
-      title: "Test #1",
-      image: profilePhoto,
-      appLink: "https://jpdbrodeur.github.io/",
-      repoLink: "https://github.com/JPDBrodeur"
+      title: "Run Buddy",
+      image: runBuddyImg,
+      description: "HTML/CSS",
+      appLink: "https://jpdbrodeur.github.io/run-buddy/",
+      repoLink: "https://github.com/JPDBrodeur/run-buddy"
     },
     {
-      title: "Project Title #2",
-      image: profilePhoto,
-      appLink: "https://jpdbrodeur.github.io/",
-      repoLink: "https://github.com/JPDBrodeur"
+      title: "Code Quiz",
+      image: CodeQuizImg,
+      description: "Javascript",
+      appLink: "https://jpdbrodeur.github.io/code-quiz/",
+      repoLink: "https://github.com/JPDBrodeur/code-quiz"
     },
     {
-      title: "Catchy Title #3",
-      image: profilePhoto,
-      appLink: "https://jpdbrodeur.github.io/",
-      repoLink: "https://github.com/JPDBrodeur"
+      title: "Weather Dashboard",
+      image: weatherDashboardImg,
+      description: "Javascript/Server-Side APIs",
+      appLink: "https://jpdbrodeur.github.io/weather-dashboard/",
+      repoLink: "https://github.com/JPDBrodeur/weather-dashboard"
     },
     {
-      title: "Project Title #4",
-      image: profilePhoto,
-      appLink: "https://jpdbrodeur.github.io/",
-      repoLink: "https://github.com/JPDBrodeur"
+      title: "YaFoodle",
+      image: YaFoodleImg,
+      description: "Javascript/AJAX",
+      appLink: "https://markcyg.github.io/Yafoodle/",
+      repoLink: "https://github.com/MarkCyg/Yafoodle"
+    },
+    {
+      title: "Fomo Mock Exchange",
+      image: FomoExchangeImg,
+      description: "Javascript/SQL/Heroku",
+      appLink: "https://fomo-exchange.herokuapp.com/",
+      repoLink: "https://github.com/RynMrphy18/fomo-mock-exchange"
+    },
+    {
+      title: "Budget Tracker",
+      image: BudgetImg,
+      description: "MERN Stack/Offline Access",
+      appLink: "https://stark-chamber-52769.herokuapp.com/",
+      repoLink: "https://github.com/JPDBrodeur/budget-tracker"
     }
   ]
   console.log(projects)
   return (
-    <section>
       <Project projects={projects}></Project>
-    </section>
   );
 }
 

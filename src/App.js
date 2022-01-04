@@ -1,7 +1,7 @@
 import Nav from './components/Navigation'
 import About from './components/About'
 import Portfolio from './components/Portfolio';
-import Project from './components/Project'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -10,8 +10,8 @@ function App() {
       <main>
         <About />
         <Portfolio />
-        <Project />
       </main>
+      <Footer />
     </div>
   );
 }
