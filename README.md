@@ -8,8 +8,8 @@ Made with Create React App
 ## Table of Contents
 
 * [User Story](#user-story)
-* [Deployed Application](#installation)
 * [Screenshot](#screenshot)
+* [Deployed Application](#installation)
 * [Questions](#questions)
 
 ## User Story

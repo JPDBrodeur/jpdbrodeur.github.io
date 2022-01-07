@@ -6,11 +6,11 @@ function Nav({ setCurrentSection, currentSection }) {
         <li className="mx-2" >
           {currentSection === 'About' ? (
             <span className="cursor-pointer inline-block border border-blue-500 rounded py-1 px-3 bg-blue-500 text-white" >
-              About me
+              About
             </span>
           ) : (
             <span className="cursor-pointer inline-block border border-white rounded hover:border-gray-200 text-blue-500 hover:bg-gray-200 py-1 px-3" onClick={() => setCurrentSection('About')}>
-              About me
+              About
             </span>
             )}
         </li>
