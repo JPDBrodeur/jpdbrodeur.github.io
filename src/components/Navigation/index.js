@@ -1,7 +1,7 @@
 function Nav({ setCurrentSection, currentSection }) {
 
   return (
-    <nav className="text-2xl my-1">
+    <nav className="text-2xl my-3 lg:my-1">
       <ul className="flex flex-row justify-center">
         <li className="mx-2" >
           {currentSection === 'About' ? (
@@ -9,7 +9,7 @@ function Nav({ setCurrentSection, currentSection }) {
               About
             </span>
           ) : (
-            <span className="cursor-pointer inline-block border border-white rounded hover:border-gray-200 text-blue-500 hover:bg-gray-200 py-1 px-3" onClick={() => setCurrentSection('About')}>
+            <span className="cursor-pointer inline-block border border-gray-100 rounded text-blue-500 hover:bg-gray-200 py-1 px-3" onClick={() => setCurrentSection('About')}>
               About
             </span>
             )}
@@ -19,7 +19,7 @@ function Nav({ setCurrentSection, currentSection }) {
               Portfolio
             </span>
           ) : (
-            <span className="cursor-pointer inline-block border border-white rounded hover:border-gray-200 text-blue-500 hover:bg-gray-200 py-1 px-3" onClick={() => setCurrentSection('Portfolio')}>
+            <span className="cursor-pointer inline-block border border-gray-100 rounded text-blue-500 hover:bg-gray-200 py-1 px-3" onClick={() => setCurrentSection('Portfolio')}>
               Portfolio
             </span>
             )}
@@ -29,7 +29,7 @@ function Nav({ setCurrentSection, currentSection }) {
               Contact
             </span>
           ) : (
-            <span className="cursor-pointer inline-block border border-white rounded hover:border-gray-200 text-blue-500 hover:bg-gray-200 py-1 px-3" onClick={() => setCurrentSection('Contact')}>
+            <span className="cursor-pointer inline-block border border-gray-100 rounded text-blue-500 hover:bg-gray-200 py-1 px-3" onClick={() => setCurrentSection('Contact')}>
               Contact
             </span>
             )}
@@ -40,7 +40,7 @@ function Nav({ setCurrentSection, currentSection }) {
               Resume
             </span>
           ) : (
-            <span className="cursor-pointer inline-block border border-white rounded hover:border-gray-200 text-blue-500 hover:bg-gray-200 py-1 px-3" onClick={() => setCurrentSection('Resume')}>
+            <span className="cursor-pointer inline-block border border-gray-100 rounded text-blue-500 hover:bg-gray-200 py-1 px-3" onClick={() => setCurrentSection('Resume')}>
               Resume
             </span>
             )}

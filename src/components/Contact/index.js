@@ -37,7 +37,7 @@ function Contact() {
   };
 
   return (
-    <section className="flex justify-center">
+    <section className="flex justify-center mt-10">
       <form id="contact-form" className="w-full sm:w-2/3 md:w-1/2 xl:w-1/3 mx-10 bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4" onSubmit={handleSubmit}>
         <div className="mb-4">
           <label htmlFor="name" className="block text-gray-700 text-sm font-bold mb-2">Name:</label>
