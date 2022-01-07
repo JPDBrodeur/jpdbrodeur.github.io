@@ -9,10 +9,10 @@ const Project = ({ projects }) => {
           <div className="relative">
             <div className="absolute inset-0 z-10 bg-white flex flex-col items-center justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-300">
               <h2 className="text-2xl font-bold">
-                <a href={project.appLink} target="_blank">{project.title} <Icon icon="akar-icons:link-out" inline={true} className="inline" /></a>
+                <a href={project.appLink} target="_blank" rel="noreferrer">{project.title} <Icon icon="akar-icons:link-out" inline={true} className="inline" /></a>
               </h2>
               <p className="my-2">{project.description}</p>
-              <p className="text-xl"><a href={project.repoLink} target="_blank"><Icon icon="akar-icons:github-fill" inline={true} className="inline" /> View Repo</a></p>
+              <p className="text-xl"><a href={project.repoLink} target="_blank" rel="noreferrer"><Icon icon="akar-icons:github-fill" inline={true} className="inline" /> View Repo</a></p>
     
             </div>
             <div href="#" className="relative">
