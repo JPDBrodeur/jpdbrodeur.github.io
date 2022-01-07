@@ -5,7 +5,7 @@ const Project = ({ projects }) => {
   return (
     <section className="flex flex-row flex-wrap justify-center mt-10">
       {projects.map((project, index) => (
-        <article className="w-80 mx-2 mb-2" key={index}>
+        <article className="w-80 mx-2.5 mb-5" key={index}>
           <div className="relative">
             <div className="absolute inset-0 z-10 bg-white flex flex-col items-center justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-300">
               <h2 className="text-2xl font-bold">
