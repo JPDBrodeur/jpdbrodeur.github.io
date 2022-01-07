@@ -4,6 +4,7 @@ import weatherDashboardImg from '../../assets/WeatherDashboard.png';
 import YaFoodleImg from '../../assets/YaFoodle.png';
 import FomoExchangeImg from '../../assets/FomoExchange.png';
 import BudgetImg from '../../assets/BudgetTracker.png';
+import vaccidateImg from '../../assets/vacci-date.png'
 import Project from '../../components/Project'
 
 function Portfolio() {
@@ -49,6 +50,13 @@ function Portfolio() {
       description: "MERN Stack/Offline Access",
       appLink: "https://stark-chamber-52769.herokuapp.com/",
       repoLink: "https://github.com/JPDBrodeur/budget-tracker"
+    },
+    {
+      title: "Vacci-Date",
+      image: vaccidateImg,
+      description: "MERN Stack/GraphQL",
+      appLink: "https://powerful-basin-63649.herokuapp.com/",
+      repoLink: "https://github.com/thereeling/vacci-date"
     }
   ]
   console.log(projects)
