@@ -1,31 +1,30 @@
-function Nav() {
+function Nav({ setCurrentSection }) {
 
   return (
-    <header className="flex flex-row m-5">
-      <h2 className="text-5xl">
-        <a href="/">John Brodeur</a>
-      </h2>
-      <nav>
-        <ul className="flex flex-row">
-          <li className="mx-2 my-3">
-            <a href="#about">
-              About me
-            </a>
-          </li>
-          <li className="mx-2 my-3">
-            <span>
-                Portfolio
-            </span>
-          </li>
-          <li className="mx-2 my-3">
-            <span>Contact</span>
-          </li>
-          <li className="mx-2 my-3">
-            <span>Resume</span>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <nav className="text-2xl my-2">
+      <ul className="flex flex-row">
+        <li className="mx-2">
+          <span className="cursor-pointer" onClick={() => setCurrentSection('About')}>
+            About me
+          </span>
+        </li>
+        <li className="mx-2">
+          <span className="cursor-pointer" onClick={() => setCurrentSection('Portfolio')}>
+            Portfolio
+          </span>
+        </li>
+        <li className="mx-2">
+          <span className="cursor-pointer" onClick={() => setCurrentSection('Contact')}>
+            Contact
+          </span>
+        </li>
+        <li className="mx-2">
+          <span className="cursor-pointer" onClick={() => setCurrentSection('Resume')}>
+            Resume
+          </span>
+        </li>
+      </ul>
+    </nav>
   );
 }
 
