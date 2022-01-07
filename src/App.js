@@ -14,6 +14,7 @@ function App() {
       <div>
         <Header 
           setCurrentSection={setCurrentSection}
+          currentSection={currentSection}
         />
         <main>
           {currentSection === 'About' ? (<About />) : ('')}
