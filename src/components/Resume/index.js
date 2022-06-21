@@ -1,8 +1,10 @@
+import resume from '../../assets/docs/resume.pdf';
+
 function Resume() {
   return (
     <div>
       <div className="flex justify-center mt-10">
-        <a href="https://jpdbrodeur.github.io/assets/docs/resume.pdf">
+        <a href={resume}>
           <button data-testid="button" target="_blank" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" type="submit">Download Resume</button>
         </a>
       </div>
