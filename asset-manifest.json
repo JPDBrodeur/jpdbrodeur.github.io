@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.1c9a7276.css",
+    "main.js": "/portfolio/static/js/main.83da5dc2.js",
+    "static/media/enders.gif": "/portfolio/static/media/enders.12883d638097399c7aef.gif",
+    "static/media/bwagner.gif": "/portfolio/static/media/bwagner.fe7e9a323c574b55a682.gif",
+    "static/media/YaFoodle.png": "/portfolio/static/media/YaFoodle.ef9f8582f01772197ac4.png",
+    "static/media/profile.jpg": "/portfolio/static/media/profile.4641c36fa97f13374866.jpg",
+    "static/media/run-buddy.jpg": "/portfolio/static/media/run-buddy.935c54d79ba775974d85.jpg",
+    "static/media/code-quiz.gif": "/portfolio/static/media/code-quiz.9fcac1328fd37e72c2fd.gif",
+    "static/media/WeatherDashboard.png": "/portfolio/static/media/WeatherDashboard.1bca0b087935babb1dd6.png",
+    "static/media/BudgetTracker.png": "/portfolio/static/media/BudgetTracker.b097418a88e9ce99efb2.png",
+    "static/media/FomoExchange.png": "/portfolio/static/media/FomoExchange.e9ed4d859f658d569d2f.png",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.0a114d11d22170a0f65e.pdf",
+    "index.html": "/portfolio/index.html",
+    "main.1c9a7276.css.map": "/portfolio/static/css/main.1c9a7276.css.map",
+    "main.83da5dc2.js.map": "/portfolio/static/js/main.83da5dc2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c9a7276.css",
+    "static/js/main.83da5dc2.js"
+  ]
+}
