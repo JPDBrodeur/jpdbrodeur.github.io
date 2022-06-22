@@ -22,7 +22,7 @@ SO THAT I can assess whether they're a good candidate for an open position
 ![View Screenshot](screenshot.png)
 
 ## Deployed Application
-[https://jpdbrodeur.github.io/portfolio/](https://jpdbrodeur.github.io/portfolio/)
+[https://jpdbrodeur.github.io](https://jpdbrodeur.github.io/)
 
 ## Questions
 
