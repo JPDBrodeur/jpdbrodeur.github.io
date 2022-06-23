@@ -13,17 +13,17 @@ const Project = ({ projects }) => {
           {codeProjects.map((project, index) => (
             <article className="w-80 mx-2.5 mb-5" key={index}>
               <div className="relative">
-                <div className="absolute inset-0 z-10 bg-white flex flex-col text-center items-center justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-300">
-                  <h2 className="text-2xl font-bold">
+                <div className="absolute inset-0 z-10 bg-white flex flex-col text-center items-center justify-center opacity-0 hover:opacity-100 rounded bg-opacity-90 duration-300 shadow-lg">
+                  <h2 className="text-2xl font-bold hover:scale-110 hover:text-blue-700 ease-in duration-200">
                     <a href={project.appLink} target="_blank" rel="noreferrer">{project.title} <Icon icon="akar-icons:link-out" inline={true} className="inline" /></a>
                   </h2>
                   <p className="my-2">{project.description}</p>
-                  <p className="text-xl"><a href={project.repoLink} target="_blank" rel="noreferrer"><Icon icon="akar-icons:github-fill" inline={true} className="inline" /> View Repo</a></p>
+                  <p className="text-xl hover:scale-110 hover:text-blue-700 ease-in duration-200"><a href={project.repoLink} target="_blank" rel="noreferrer"><Icon icon="akar-icons:github-fill" inline={true} className="inline" /> View Repo</a></p>
 
                 </div>
                 <div href="#" className="relative">
-                  <div className="h-44 overflow-hidden">
-                    <img src={project.image} className="object-cover h-44 w-80" alt="" />
+                  <div className="h-44 overflow-hidden rounded shadow-md">
+                    <img src={project.image} className="object-cover h-44 w-80 rounded" alt="" />
                   </div>
                 </div>
               </div>
@@ -37,16 +37,16 @@ const Project = ({ projects }) => {
           {wixProjects.map((project, index) => (
             <article className="w-80 mx-2.5 mb-5" key={index}>
               <div className="relative">
-                <div className="absolute inset-0 z-10 bg-white flex flex-col text-center items-center justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-300">
-                  <h2 className="text-2xl font-bold">
+                <div className="absolute inset-0 z-10 bg-white flex flex-col text-center items-center rounded justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-300 shadow-lg">
+                  <h2 className="text-2xl font-bold hover:scale-110 hover:text-blue-700 ease-in duration-200">
                     <a href={project.appLink} target="_blank" rel="noreferrer">{project.title} <Icon icon="akar-icons:link-out" inline={true} className="inline" /></a>
                   </h2>
                   <p className="my-2">{project.description}</p>
 
                 </div>
                 <div href="#" className="relative">
-                  <div className="h-44 overflow-hidden">
-                    <img src={project.image} className="object-cover h-44 w-80" alt="" />
+                  <div className="h-44 overflow-hidden rounded shadow-md">
+                    <img src={project.image} className="object-cover h-44 w-80 rounded" alt="" />
                   </div>
                 </div>
               </div>

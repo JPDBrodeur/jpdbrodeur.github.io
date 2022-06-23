@@ -26,7 +26,7 @@ function Contact() {
 
           </div>
           <div className="flex justify-between">
-            <button type="submit" disabled={state.submitting} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Submit</button>
+            <button type="submit" disabled={state.submitting} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-md hover:scale-105 ease-in duration-200">Submit</button>
             <div>
               <ValidationError
                 prefix="Name"

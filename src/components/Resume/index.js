@@ -5,7 +5,7 @@ function Resume() {
     <div>
       <div className="flex justify-center mt-10">
         <a href={resume} target="_blank">
-          <button data-testid="button" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" type="submit">Download Resume</button>
+          <button data-testid="button" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-md hover:shadow-xl hover:scale-110 ease-in duration-200" type="submit">Download Resume</button>
         </a>
       </div>
       <div className="flex flex-col md:flex-row justify-center md:space-x-10">
