@@ -1,7 +1,7 @@
 function Nav({ setCurrentSection, currentSection }) {
 
   return (
-    <nav className="text-2xl my-3 lg:my-1">
+    <nav className="sm:text-2xl text-lg my-3 lg:my-1">
       <ul className="flex flex-row justify-center">
         <li className="mx-1" >
           {currentSection === 'About' ? (

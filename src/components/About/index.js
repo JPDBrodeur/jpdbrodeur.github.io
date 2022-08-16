@@ -6,7 +6,7 @@ function About() {
     <section className="mt-5 lg:mt-10">
         <h2 className="text-center text-3xl">{greeting}</h2>
     <div className="mt-5 lg:mt-10 flex justify-center">
-      <article className="w-full xl:w-2/3 mx-20">
+      <article className="w-full xl:w-2/3 mx-10 sm:mx-20">
         <div className="w-2/3 md:w-1/2 lg:w-1/3 m-auto mb-5 lg:mb-10">
           <img src={profilePhoto} className="my-2 rounded-full w-40 shadow-lg" style={{ width: "100%" }} alt="John Brodeur" />
         </div>
